@@ -1,0 +1,48 @@
+/* ── Dot-grid background ─────────────────────────────────────── */
+#schematics {
+  /* background: #f8fafc */
+  /* url("https://crafto.themezaa.com/product-showcase/wp-content/uploads/sites/16/revslider/slider-1/demo-product-showcase-rev-slider-021.jpg"); */
+  /* background-size: 11px; */
+  background: url("/assets/images/background.png") repeat-x top center;
+  background-size: 100%;
+  position: relative;
+}
+
+/* ── Inline SVG sizing ───────────────────────────────────────── */
+.svg-wrapper svg {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background: transparent;
+}
+
+h2 {
+  font-weight: 500;
+  color: #39464a;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.wrapperLines {
+  background-image: url("/assets/images/lines.svg");
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+
+h2,
+p,
+h1 {
+  position: relative;
+  z-index: 1;
+}
