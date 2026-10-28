@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Left: brand + social */}
         <div className="shrink-0 w-full md:w-[180px]">
           <img
-            src="/assets/images/logo.png"
+            src={`${import.meta.env.BASE_URL}assets/images/logo.png`}
             alt="BioIT Logo"
             className="w-[180px] mb-5"
           />

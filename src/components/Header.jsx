@@ -29,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" onClick={(e) => handleNavClick(e, "#")} className="flex items-center shrink-0">
           <img
-            src="/assets/images/logo.png"
+            src={`${import.meta.env.BASE_URL}assets/images/logo.png`}
             alt="BioIT Logo"
             className="w-40"
           />

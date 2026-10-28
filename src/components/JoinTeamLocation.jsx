@@ -9,7 +9,7 @@ const panels = [
     cta: "Meet the Team",
     href: "https://www.ceitec.eu/bioinformatics-core-facility/cf284/people",
     bg: "#ffffff",
-    images: ["/assets/images/team.jpeg"],
+    images: [`${import.meta.env.BASE_URL}assets/images/team.jpeg`],
   },
   {
     id: "join-us",
@@ -19,7 +19,7 @@ const panels = [
     cta: "Explore Positions",
     href: "https://www.ceitec.eu/ceitec-values-diversity-and-promotes-an-inclusive-working-environment/t7",
     bg: "#f9fafb",
-    images: ["/assets/images/hiring.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/images/hiring.jpg`],
   },
   {
     id: "location",
@@ -29,7 +29,7 @@ const panels = [
     cta: "Get Directions",
     href: "https://www.ceitec.eu/contacts/t1015",
     bg: "#f3f4f6",
-    images: ["/assets/images/location.jpg"],
+    images: [`${import.meta.env.BASE_URL}assets/images/location.jpg`],
   },
 ];
 

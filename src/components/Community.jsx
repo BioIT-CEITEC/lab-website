@@ -1,17 +1,17 @@
 const COL1 = [
-  "/assets/images/community/bioinformatics-community-01.jpeg",
-  "/assets/images/community/bioinformatics-community-02.jpeg",
-  "/assets/images/community/bioinformatics-community-03.jpeg",
-  "/assets/images/community/bioinformatics-community-04.jpeg",
-  "/assets/images/community/bioinformatics-community-05.jpeg",
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-01.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-02.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-03.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-04.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-05.jpeg`,
 ];
 
 const COL2 = [
-  "/assets/images/community/bioinformatics-community-06.jpeg",
-  "/assets/images/community/bioinformatics-community-07.jpeg",
-  "/assets/images/community/bioinformatics-community-08.jpeg",
-  "/assets/images/community/bioinformatics-community-09.jpeg",
-  "/assets/images/community/bioinformatics-community-01.jpeg",
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-06.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-07.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-08.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-09.jpeg`,
+  `${import.meta.env.BASE_URL}assets/images/community/bioinformatics-community-01.jpeg`,
 ];
 
 const TRACK1 = [...COL1, ...COL1];
@@ -50,7 +50,7 @@ export default function Community() {
               <div className="relative shrink-0">
                 <div className="relative w-11 h-11 rounded-full p-[2.5px] bg-gradient-to-br from-[#8dc95f] to-[#21a9c0]">
                   <img
-                    src="/assets/images/nicolas-blavet.png"
+                    src={`${import.meta.env.BASE_URL}assets/images/nicolas-blavet.png`}
                     alt="Nicolas Blavet"
                     className="w-full h-full rounded-full object-cover block"
                   />
