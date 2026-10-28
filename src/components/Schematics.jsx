@@ -11,11 +11,11 @@ const BOX_ACTIONS = {
   //   title: "BioIT",
   //   content: "TODO: add description for the main BioIT hexagon.",
   // },
-  "box-omics-data-processing-sharing": {
-    type: "popup",
-    title: "Omics Data Infrastructure Projects",
-    content: "TODO: add description.",
-  },
+  // "box-omics-data-processing-sharing": {
+  //   type: "popup",
+  //   title: "Omics Data Infrastructure Projects",
+  //   content: "TODO: add description.",
+  // },
   "box-project-specific-bioinfromatics-support": {
     type: "scroll",
     target: "#services",
@@ -24,10 +24,10 @@ const BOX_ACTIONS = {
     type: "scroll",
     target: "#community",
   },
-  "box-bioinformatics-study-program": {
-    type: "link",
-    url: "https://bioinformatika.muni.cz/",
-  },
+  // "box-bioinformatics-study-program": {
+  //   type: "link",
+  //   url: "https://bioinformatika.muni.cz/",
+  // },
   "box-courses": {
     type: "link",
     url: "https://bioinformatika.muni.cz/magisterske-studium/studijni-katalog#sekvence",
