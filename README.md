@@ -10,6 +10,16 @@ Live sites:
 
 This is a fully static website built to present the BioIT core facility — its services, projects, publications, team, and community. It is part of the ELIXIR Czech Republic infrastructure.
 
+## Repositories
+
+The site uses three repositories with matching names:
+
+| Repo | Contents |
+| ---- | -------- |
+| `bioit-ceitec-landing-page-source-code` | Source code (this repo) |
+| `bioit-ceitec-landing-page` | Built site for [bioit.ceitec.eu](https://bioit.ceitec.eu) |
+| `bioit-ceitec-landing-page-cz` | Built site for [bioit.ceitec.cz](https://bioit.ceitec.cz) |
+
 ## Deployment
 
 The site is hosted on **GitHub Pages** and deployed to two domains simultaneously.
