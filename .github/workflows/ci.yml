@@ -1,0 +1,29 @@
+name: CI
+
+# Lint and build check only — nothing is published from this repo.
+# Production is deployed manually with `npm run deploy` to
+# bioit-ceitec-landing-page (bioit.ceitec.eu) and bioit-ceitec-landing-page-cz (bioit.ceitec.cz).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
