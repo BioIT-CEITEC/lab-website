@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy:eu": "npm run build && npx gh-pages -d dist --nojekyll",
+    "deploy:eu": "npm run build && npx gh-pages -d dist --nojekyll --repo git@github.com:BioIT-CEITEC/bioit-ceitec-landing-page.git",
     "deploy:cz": "echo 'bioit.ceitec.cz' > dist/CNAME && npx gh-pages -d dist --nojekyll --repo git@github.com:BioIT-CEITEC/bioit-ceitec-landing-page-cz.git",
     "deploy": "npm run deploy:eu && npm run deploy:cz"
   },
