@@ -171,6 +171,31 @@ export default function Services() {
           </div>
         </div>
       </div>
+      {/* Booking call-to-action */}
+      <div className="flex justify-center px-8 mt-3">
+        <a
+          href="https://infinity.ideaelan.com/muni"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative inline-flex rounded-full p-px no-underline bg-[linear-gradient(135deg,rgba(46,169,199,0.45),rgba(58,158,56,0.45))] hover:bg-[linear-gradient(135deg,#2ea9c7,#3a9e38)] hover:shadow-[0_6px_24px_rgba(46,169,199,0.25)] transition-all duration-300"
+        >
+          <span className="inline-flex items-center gap-3 rounded-full bg-white/90 backdrop-blur-md pl-1.5 pr-4 py-1.5 text-sm text-gray-600">
+            <span className="rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-white bg-[linear-gradient(135deg,#2ea9c7,#3a9e38)]">
+              New
+            </span>
+            <span>
+              Please request service in the{" "}
+              <span className="font-semibold text-[#39464a]">booking system</span>
+            </span>
+            <span
+              aria-hidden="true"
+              className="text-[#2e8fa8] transition-transform duration-300 group-hover:translate-x-1"
+            >
+              →
+            </span>
+          </span>
+        </a>
+      </div>
     </section>
   );
 }
